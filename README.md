@@ -23,6 +23,8 @@ chmod +x install_osm.sh
 ./install_osm.sh
 ```
 
+#### Checking OSM installation
+
 
 
 
