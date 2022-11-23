@@ -46,14 +46,18 @@ Install OpenStack can be extremelly complex because it was designed to allow use
 
 DevStack brings some advantages, like:
 
--Quickly build dev OpenStack environments in a clean Ubuntu or Fedora environment
--Describe working configurations of OpenStack (which code branches work together? what do config files look like for those branches?)
--Make it easier for developers to dive into OpenStack so that they can productively contribute without having to understand every part of the system at once
--Make it easy to prototype cross-project features
--Provide an environment for the OpenStack CI testing on every commit to the projects
+- Quickly build dev OpenStack environments in a clean Ubuntu or Fedora environment;
+- Describe working configurations of OpenStack (which code branches work together? what do config files look like for those branches?);
+- Make it easier for developers to dive into OpenStack so that they can productively contribute without having to understand every part of the system at once;
+- Make it easy to prototype cross-project features;
+- Provide an environment for the OpenStack CI testing on every commit to the projects;
 
 ![This is an image](/Images/openstack-map.png)
 
+The minimum requirements to OpenStack works properly through DevStack installation are:
+- 2 CPUs
+- 8 GB RAM
+- 60 GB disk
 Again, due to hardware limitations of CPUs and memory RAM in my personal computer, the minimum required will be set.
 
 ### VM Creation:
