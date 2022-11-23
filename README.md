@@ -15,7 +15,7 @@ In my case, due to hardware limitations of CPUs and memory RAM in my personal co
 The VM is created on **Oracle VirtualBox (version 7.0.2)** using the **Ubuntu 20.04.5 LTS server image**, available on: [Ubuntu Official Page](http://releases.ubuntu.com/20.04/)
 
 ### Installing OSM:
-The OSM Community makes avaiable a script file that install OSM automatically in a easy way. Following the commands below a standlone Kubernetes on a single host will be installed with OSM on top of it.
+The OSM Community makes avaiable a script file that install OSM automatically in an easy way. Following the commands below a standlone Kubernetes on a single host will be installed with OSM on top of it.
 
 ```
 wget https://osm-download.etsi.org/ftp/osm-12.0-twelve/install_osm.sh
