@@ -4,10 +4,13 @@ Resource Orchestration in a MEC Infrastructure is a MSc in Engineering of Comput
 # Configuration of the enviroment
 ## MANO installation:
 In order to install OSM, it is necessary, at least, a single server or a VM with the following requirements:
-| MINIMUM  | RECOMMENDED |
-| -------- | ----------- |
-CPUs| 2 CPUs | 2 CPUs  |
-RAM | 6 GB  | 8 GB  |
-DISK| 40 GB | 40 GB |
+- 2 CPUs
+- 6 GB RAM
+- 40 GB disk
+- 1 interface with internet access
+
+In my case, due to lack of CPUs and memory RAM, the minimum required will be set.
+
+The VM is created on **Oracle VirtualBox (version 7.0.2)** using the **Ubuntu 20.04.5 LTS server image**, available on: http://releases.ubuntu.com/20.04/
 
 
