@@ -42,10 +42,17 @@ kubectl get all -n osm
 Everything working as expected. The next step is configure the OpenStack to work as a **Virtual Infrastructure Manager** (VIM)
 
 ## OpenStack Installation Process:
-Install OpenStack can be extremelly complex because OpenStack was designed to allow users to implement solutions that are tailored to their needs. To avoid this complexity, the OpenStack Community makes available DevStack - a series of scripts to quick deploy a complete enviroment based on the latest versions of everything from their [official git master](https://opendev.org/openstack/devstack)
-- 2 CPUs
-- 8 GB RAM
-- 60 GB disk
+Install OpenStack can be extremelly complex because it was designed to allow users to implement solutions that are tailored to their needs. To avoid this complexity, the OpenStack Community makes available DevStack - a series of scripts to quick deploy a complete enviroment based on the latest versions of everything from their [official git master](https://opendev.org/openstack/devstack)
+
+DevStack brings some advantages, like:
+
+-Quickly build dev OpenStack environments in a clean Ubuntu or Fedora environment
+-Describe working configurations of OpenStack (which code branches work together? what do config files look like for those branches?)
+-Make it easier for developers to dive into OpenStack so that they can productively contribute without having to understand every part of the system at once
+-Make it easy to prototype cross-project features
+-Provide an environment for the OpenStack CI testing on every commit to the projects
+
+![This is an image](/Images/openstack-map.png)
 
 Again, due to hardware limitations of CPUs and memory RAM in my personal computer, the minimum required will be set.
 
