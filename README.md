@@ -12,7 +12,7 @@ In order to install OSM, it is necessary, at least, a single server or a VM with
 In my case, due to hardware limitations of CPUs and memory RAM in my personal computer, the minimum required will be set.
 
 ### VM Creation:
-The VM is created on **Oracle VirtualBox (version 7.0.2)** using the **Ubuntu 20.04.5 LTS server image**, available on: http://releases.ubuntu.com/20.04/
+The VM is created on **Oracle VirtualBox (version 7.0.2)** using the **Ubuntu 20.04.5 LTS server image**, available on: [Ubuntu Official Page](http://releases.ubuntu.com/20.04/)
 
 
 
