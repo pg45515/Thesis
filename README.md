@@ -26,7 +26,12 @@ chmod +x install_osm.sh
 #### Checking OSM installatio:
 To check if the installation was succeded, I can access to the UI using http://1.2.3.4, replacing 1.2.3.4 by the IP address of my host.
 
+- **Username:** admin
+- **password:** admin
+
 ![This is an image](/Images/Login_OSM.png)
+
+![This is an image](/Images/Landingpage_OSM.png)
 
 
 
